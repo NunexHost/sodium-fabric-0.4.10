@@ -56,7 +56,7 @@ public class ConfigCorruptedScreen extends Screen {
 
     @Override
     public void render(DrawContext drawContext, int mouseX, int mouseY, float delta) {
-        this.renderBackground(drawContext);
+        this.renderBackground(drawContext, mouseX, mouseY, delta);
 
         super.render(drawContext, mouseX, mouseY, delta);
 
